@@ -1,3 +1,8 @@
+:root{
+    --clr-Nav-Background: rgb(116, 34, 34);
+    --clr-fontClr1: rgb(204, 166, 166);
+}
+
 body{
     font-family: "Montserrat";
     background-color: rgb(214, 207, 196);
@@ -93,4 +98,14 @@ body{
 #cc_text{
     font-size: x-large;
     padding: 5px;
+}
+/*NAVBAR STYLES*/
+.nav{
+    display: none;
+
+}
+
+.navbar{
+    background-color: var(--clr-Nav-Background);
+    color: var(--clr-fontClr1);
 }
