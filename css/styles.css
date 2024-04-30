@@ -1,11 +1,14 @@
 :root{
-    --clr-Nav-Background: rgb(116, 34, 34);
-    --clr-fontClr1: rgb(204, 166, 166);
+    --clr-Nav-Background: rgb(104, 47, 47);
+    --clr-fontClr1: rgb(219, 188, 188);
+    --clr-fontHover:rgb(218, 100, 100);
 }
 
 body{
     font-family: "Montserrat";
     background-color: rgb(214, 207, 196);
+    margin: 0px;
+    padding: 0px;
 }
 .h2{
     font-family: "Montserrat";
@@ -99,13 +102,50 @@ body{
     font-size: x-large;
     padding: 5px;
 }
-/*NAVBAR STYLES*/
+/*NAVBAR + FOOTER STYLES*/
 .nav{
     display: none;
+    font-size: 1.5rem;
+    background-color: var(--clr-Nav-Background);
+    width: 250px;
+    min-height: 500px;
+    height: 100%;
+    z-index: 1;
+    padding: 15px;
+    text-align: center;
+}
 
+.nav_text{
+    text-decoration: none;
+    color: var(--clr-fontClr1);
+    transition: 0.2s ease-in-out;
+}
+
+.nav_text:hover{
+    color: var(--clr-fontHover);
 }
 
 .navbar{
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
     background-color: var(--clr-Nav-Background);
     color: var(--clr-fontClr1);
+    height: 80px;
+}
+
+.navbar h2{
+    font-size: 2.5rem;
+    margin-left: 100px;
+    margin-top: 0px;
+    transform: translateY(-35px);
+}
+
+.navbar i{
+    font-size: 3rem;
+    margin-top: 35px;
+}
+
+.footer{
+    
 }
