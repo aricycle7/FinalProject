@@ -1,5 +1,6 @@
 :root{
     --clr-Nav-Background: rgb(104, 47, 47);
+    --clr-Borders: rgb(59, 14, 14);
     --clr-fontClr1: rgb(219, 188, 188);
     --clr-fontHover:rgb(218, 100, 100);
 }
@@ -22,7 +23,8 @@ body{
 .index_img{
     width: 55%;
     border-radius: 5px;
-    z-index: 1;}
+    z-index: 1;
+}
 .imgSrc{
     background-color: rgba(0, 0, 0, 50%);
     padding: 0px 10px 3px 5px;
@@ -127,6 +129,9 @@ body{
     z-index: 1;
     padding: 15px;
     text-align: center;
+    border-right: 5px solid var(--clr-Borders);
+    border-bottom: 5px solid var(--clr-Borders);
+    transition: all .4s ease;
 }
 
 .nav_text{
@@ -146,6 +151,7 @@ body{
     background-color: var(--clr-Nav-Background);
     color: var(--clr-fontClr1);
     height: 80px;
+    border-bottom: solid 5px var(--clr-Borders);
 }
 
 .navbar h2{
