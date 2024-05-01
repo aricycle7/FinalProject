@@ -144,6 +144,10 @@ body{
     border-right: 5px solid var(--clr-Borders);
     border-bottom: 5px solid var(--clr-Borders);
     transition: all .4s ease;
+    position: fixed;
+}
+.fa-bars{
+    cursor: pointer;
 }
 
 #navbar_index{
