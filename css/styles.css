@@ -2,6 +2,8 @@
     --clr-Nav-Background: rgb(104, 47, 47);
     --clr-Borders: rgb(59, 14, 14);
     --clr-fontClr1: rgb(219, 188, 188);
+    --clr-fontDark: rgb(87, 10, 10);
+    --clr-fontDarkBlue: rgb(20, 20, 85);
     --clr-fontHover:rgb(218, 100, 100);
 }
 
@@ -11,10 +13,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.h2{
-    font-family: "Montserrat";
-    font-weight: 200;
-}
+
 .indexImg{
     position: absolute;
     float: left;
@@ -22,7 +21,6 @@ body{
 }
 .index_img{
     width: 55%;
-    border-radius: 5px;
     z-index: 1;
 }
 .imgSrc{
@@ -40,9 +38,7 @@ body{
     color: rgba(240, 248, 255, 85%);
     text-decoration: none;
 }
-.fact > h3{
-    z-index: 99;
-}
+
 .fact{
     position: relative;
     border-radius: 5px;
@@ -63,7 +59,22 @@ body{
     height: 253px;
     margin-right: 10px;
     padding: 10px;
+} 
+
+.header_text h1{
+    color: var(--clr-fontDark);
+    font-weight: 800;
 }
+
+.header_text h2{
+    color: var(--clr-fontDarkBlue);
+    font-family: 'Lato';
+}
+
+.header_text h3{
+    color: var(--clr-fontClr1);
+}
+
 
 /* Columbus Culture Page */
 .card_wrapper{
@@ -134,6 +145,10 @@ body{
     border-bottom: 5px solid var(--clr-Borders);
     border-bottom-right-radius: 5px;
     transition: all .4s ease-in-out;
+}
+
+#navbar_index{
+    background-color: orange;
 }
 
 .nav_text{
