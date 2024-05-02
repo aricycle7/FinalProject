@@ -20,20 +20,24 @@ body {
 }
 
 .header{
+    margin-top: 0px;
     display: grid;
-    grid-template-columns: 5;
+    grid-template-columns: 4;
     grid-template-rows: 1;
+    transform: translateY(-100px);
 }
 
 .imgCard{
     background-color: orange;
-    grid-column: 5;
+    grid-column: 4;
     grid-row: 1;
+    margin-left: 35px;
+    height: 511px;
 }
 
 .index_img {
   z-index: 1;
-  grid-column: 1/4;
+  grid-column: 1/3;
   grid-row: 1;
 }
 .imgSrc {
@@ -41,10 +45,12 @@ body {
   padding: 0px 10px 3px 5px;
   color: rgba(240, 248, 255, 85%);
   position: absolute;
-  top: 1px;
+  bottom: 5px;
   left: 1px;
   font-size: small;
-  border-end-end-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+
   cursor: default;
 }
 .imgSrc > a {
@@ -163,6 +169,11 @@ body {
 
 #nav_icon_index{
     font-size: 1.5rem;
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    cursor: default;
 }
 
 #navbar_index{
@@ -171,6 +182,18 @@ body {
     max-width: 0px;
     color: var(--clr-fontClr1);
     height: 80px;
+}
+
+#nav_index{
+    display: none;
+  font-size: 1.5rem;
+  width: 250px;
+  min-height: 500px;
+  height: 100%;
+  top: 0px;
+  z-index: 1;
+  padding: 15px;
+  transition: all 0.4s ease;
 }
 
 .nav_text {
