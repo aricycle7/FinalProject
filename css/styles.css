@@ -206,4 +206,31 @@ body {
 }
 
 .footer {
+
+}
+/* Hotels and transport page */
+.main{
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 1;
+}
+.ht_card{
+  border: 2px solid var(--clr-Borders);
+  border-radius: 5px;
+  padding-left: 5px;
+  text-align: center;
+  margin: 5px;
+}
+#ht_card1{
+  grid-column: 1;
+  grid-row: 1;
+  width: 620px;
+}
+#ht_card2{
+  grid-column: 2;
+  grid-row: 1;
+  width: 620px;
+}
+#ht_hr{
+  width: 35%;
 }
