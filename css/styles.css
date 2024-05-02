@@ -17,11 +17,24 @@ body {
 .indexImg {
   position: absolute;
   float: left;
-  margin-top: -140px;
 }
+
+.header{
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 1;
+}
+
+.imgCard{
+    background-color: orange;
+    grid-column: 5;
+    grid-row: 1;
+}
+
 .index_img {
-  width: 55%;
   z-index: 1;
+  grid-column: 1/4;
+  grid-row: 1;
 }
 .imgSrc {
   background-color: rgba(0, 0, 0, 50%);
@@ -39,16 +52,7 @@ body {
   text-decoration: none;
 }
 
-.fact {
-  position: relative;
-  border-radius: 5px;
-  background-color: rgba(139, 0, 0, 75%);
-  width: 200px;
-  height: 150px;
-  margin-top: 150px;
-  margin-left: 15px;
-  padding: 5px;
-}
+
 .header_text {
   float: right;
   text-align: right;
@@ -153,8 +157,20 @@ body {
   cursor: pointer;
 }
 
-#navbar_index {
-  background-color: orange;
+#displayNone {
+  display: none;
+}
+
+#nav_icon_index{
+    font-size: 1.5rem;
+}
+
+#navbar_index{
+    padding: 10px;
+    margin: 0px;
+    max-width: 0px;
+    color: var(--clr-fontClr1);
+    height: 80px;
 }
 
 .nav_text {
