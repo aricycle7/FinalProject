@@ -105,6 +105,9 @@ body {
   border-radius: 5px;
   border: 1px solid black;
 }
+.imgSrc2 > a{
+    color: #0066cc;
+}
 #card1 {
   grid-row: 1 / span 5;
 }
@@ -119,6 +122,7 @@ body {
 #card4 {
   grid-column: 3;
   height: 375px;
+  height: fit-content;
 }
 .cc_head {
   font-size: x-large;

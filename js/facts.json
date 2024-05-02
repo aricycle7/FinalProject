@@ -1,0 +1,16 @@
+{
+    "facts": [
+        {
+            "id": "fact1",
+            "fact": "Ohio is very welcoming. Were home to the second largest Somali community in the US!"
+        },
+        {
+            "id": "fact2",
+            "fact": "Ohio Supports minority owned businesses. We have many small and minority own businesses in Columbus that we all love to support!"
+        },
+        {
+            "id": "fact3",
+            "fact": "Columbus Has the largest pride celebration in the Midwest as well as the 15th largest LGBT population in the country!"
+        }
+    ]
+}
