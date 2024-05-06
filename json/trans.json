@@ -1,0 +1,28 @@
+{
+    "trans": [
+        {
+            "name": "CoGo Bikeshare, Lyft",
+            "cost": "2.25/30 min for a single ride",
+            "range": "300 bikes located around downtown Columbus",
+            "link": "https://cogobikeshare.com/",
+            "img": "../res/20220617_LYFT_CoGo_ebike.webp",
+            "alt": "Someone riding a CoGo bike on a sunny day"
+        },
+        {
+            "name": "Cota",
+            "cost": "Standard and frequent: $2.00, Rush Hour: $2.00, Children 5 - 12: $1.00",
+            "range": "Centeral Ohio",
+            "link": "https://www.cota.com/",
+            "img": "../res/COTA_AR23_microsite_header.webp",
+            "alt": "an image of three Cota buses"
+        },
+        {
+            "name": "Gohio",
+            "cost": "Same as Cota cost",
+            "range": "Centeral Ohio",
+            "link": "https://www.morpc.org/programs-services/gohio-commute/",
+            "img": "../res/h-gohio-commute-2000x583-1.jpg",
+            "alt": "an image of people exiting a Cota bus"
+        }
+    ]
+}
