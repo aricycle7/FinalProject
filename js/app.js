@@ -13,7 +13,7 @@ let nav_exit_index = document.getElementsByClassName('nav_icon_exit')
 
         }
         else { 
-            console.log('woosh')
+            console.log('open')
             nav.style.display = "block";
         }
     })
@@ -22,7 +22,7 @@ let nav_exit_index = document.getElementsByClassName('nav_icon_exit')
         this.classList.toggle("active");
 
         if (nav.style.display.match("block")) {
-            console.log('pee')
+            console.log('close')
             nav.style.display = "none";
         }
     })

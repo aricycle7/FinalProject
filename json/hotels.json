@@ -1,0 +1,28 @@
+{
+  "hotels": [
+    {
+      "name": "Residence Inn by Marriott",
+      "location": "3100 Olentangy River Road, Columbus OH, 43202",
+      "cost": "$149 per night",
+      "img": "../res/marriott.webp",
+      "link": "https://www.hotels.com/ho552123552/residence-inn-by-marriott-columbus-osu-columbus-united-states-of-america/?chkin=2024-05-26&chkout=2024-05-27&x_pwa=1&rfrr=HSR&pwa_ts=1715001786681&referrerUrl=aHR0cHM6Ly93d3cuaG90ZWxzLmNvbS9Ib3RlbC1TZWFyY2g%3D&useRewards=false&rm1=a2&regionId=874&destination=Columbus%2C+Ohio%2C+United+States+of+America&destType=MARKET&neighborhoodId=808641247281864704&selected=17222611&latLong=39.96132%2C-82.99908&sort=RECOMMENDED&top_dp=149&top_cur=USD&userIntent=&selectedRoomType=201855152&selectedRatePlan=209396385&expediaPropertyId=17222611&searchId=d899fe2d-5156-4e08-838f-6c7491bd54c7&siteid=300000001",
+      "alt": "The enterance to The Residence Inn by Marriott"
+    },
+    {
+      "name": "The Urban",
+      "location": "200 W Norwich Ave, Columbus, OH 43201",
+      "cost": "$134 Per night",
+      "img": "../res/urban.webp",
+      "link": "https://www.hotels.com/ho2209514944/the-urban-columbus-united-states-of-america/?chkin=2024-05-26&chkout=2024-05-27&x_pwa=1&rfrr=HSR&pwa_ts=1715001818249&referrerUrl=aHR0cHM6Ly93d3cuaG90ZWxzLmNvbS9Ib3RlbC1TZWFyY2g%3D&useRewards=false&rm1=a2&regionId=874&destination=Columbus%2C+Ohio%2C+United+States+of+America&destType=MARKET&neighborhoodId=553248635976477957&selected=17222611&latLong=39.96132%2C-82.99908&sort=RECOMMENDED&top_dp=134&top_cur=USD&userIntent=&selectedRoomType=314375300&selectedRatePlan=386672997&expediaPropertyId=69016092&searchId=d899fe2d-5156-4e08-838f-6c7491bd54c7&siteid=300000001&propertyName=The+Urban",
+      "alt": "the exterior of The Urban"
+    },
+    {
+      "name": "The Junto",
+      "location": "77 Belle St, Columbus, OH 43215",
+      "cost": "$212 Per night",
+      "img": "../res/junto.avif",
+      "link": "https://www.hotels.com/ho2875266016/the-junto-columbus-united-states-of-america/?chkin=2024-05-26&chkout=2024-05-27&x_pwa=1&rfrr=HSR&pwa_ts=1715001818254&referrerUrl=aHR0cHM6Ly93d3cuaG90ZWxzLmNvbS9Ib3RlbC1TZWFyY2g%3D&useRewards=false&rm1=a2&regionId=874&destination=Columbus%2C%20Ohio%2C%20United%20States%20of%20America&destType=MARKET&neighborhoodId=6059502&selected=17222611&latLong=39.96132%2C-82.99908&sort=RECOMMENDED&top_dp=212&top_cur=USD&userIntent=&selectedRoomType=321673674&selectedRatePlan=389256164&expediaPropertyId=89820813&searchId=d899fe2d-5156-4e08-838f-6c7491bd54c7&siteid=300000001&propertyName=The%20Junto&pwaThumbnailDialog=thumbnail-gallery&pwaDialogNested=media-gallery",
+      "alt": "the exterior of The Junto"
+    }
+  ]
+}
