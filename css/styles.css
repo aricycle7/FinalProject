@@ -264,11 +264,4 @@ body {
   margin-right: 4px;
   padding-top: 10px;
 }
-@media screen and (max-width: 2560px) {
-  #ht_card1{
-    width: 638px;
-  }
-  #ht_card2{
-    width: 638px;
-  }
-}
+/* I gave up on the media query :( */
