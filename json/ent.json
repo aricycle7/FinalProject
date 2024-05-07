@@ -2,12 +2,22 @@
 {
     "trans": [
         {
-            "name": "sdfsf",
+            "name": "The Columbus Zoo",
             "desc": "sfdf",
             "img": "asdfsd"
         },
         {
-            "name": "sdfsf",
+            "name": "Lego Land Discovery Center",
+            "desc": "sfdf",
+            "img": "asdfsd"
+        },
+        {
+            "name": "Cosi",
+            "desc": "sfdf",
+            "img": "asdfsd"
+        },
+        {
+            "name": "Lego Land",
             "desc": "sfdf",
             "img": "asdfsd"
         }
