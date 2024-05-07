@@ -1,15 +1,23 @@
 :root {
-  --clr-Nav-Background: rgb(104, 47, 47);
-  --clr-Borders: rgb(59, 14, 14);
-  --clr-fontClr1: rgb(219, 188, 188);
+  --clr-Nav-Background: rgb(133, 54, 54);
+  --clr-background-white: rgb(224, 219, 210);
+  --clr-indexBg: rgb(66, 25, 22);
+
+  --clr-Borders: rgb(80, 15, 15);
+  --clr-fontClrIndex: rgb(146, 28, 28);
+  --clr-fontClrWhite: rgb(228, 223, 209);
+  --clr-fontClr2: rgb(53, 6, 6);
   --clr-fontDark: rgb(87, 10, 10);
-  --clr-fontDarkBlue: rgb(20, 20, 85);
+  --clr-fontLightBlue: rgb(78, 78, 209);
+
   --clr-fontHover: rgb(218, 100, 100);
+
+  --clr-cardBg: rgb(216, 201, 178);
 }
 
 body {
   font-family: "Montserrat";
-  background-color: rgb(214, 207, 196);
+  background-color: var(--clr-background-white);
   margin: 0px;
   padding: 0px;
 }
@@ -25,14 +33,40 @@ body {
   grid-template-columns: 4;
   grid-template-rows: 1;
   transform: translateY(-100px);
+  border-bottom: solid 8px var(--clr-fontLightBlue);
 }
 
 .imgCard {
-  background-color: orange;
+  background-color: var(--clr-indexBg);
   grid-column: 4;
   grid-row: 1;
-  margin-left: 35px;
+  margin-left: 250px;
+  z-index: 1;
   height: 511px;
+}
+
+.imgCard h3{
+  font-size: 1.5rem;
+  margin-left: 20px;
+  padding-bottom: 100px;
+  text-align: left;
+  color: var(--clr-fontClrWhite);
+}
+
+.imgCard h2{
+  font-size: 3rem;
+  margin-left: 80px;
+  padding-bottom: 0px;
+  color: var(--clr-fontLightBlue);
+  font-family: "Lato";
+}
+
+.imgCard h1{
+  font-size: 5rem;
+  text-align: center;
+  margin-left: 150px;
+  color: var(--clr-fontClrIndex);
+  font-weight: 800;
 }
 
 .index_img {
@@ -40,13 +74,14 @@ body {
   grid-column: 1/3;
   grid-row: 1;
 }
+
 .imgSrc {
   background-color: rgba(0, 0, 0, 50%);
   padding: 0px 10px 3px 5px;
   color: rgba(240, 248, 255, 85%);
   position: absolute;
   bottom: 5px;
-  left: 1px;
+  right: 1px;
   font-size: small;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -56,6 +91,17 @@ body {
 .imgSrc > a {
   color: rgba(240, 248, 255, 85%);
   text-decoration: none;
+}
+
+.fun_facts_card{
+  background-color: var(--clr-Nav-Background);
+  opacity: 90%;
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  padding: 5px;
 }
 
 .header_text {
@@ -70,18 +116,21 @@ body {
   padding: 10px;
 }
 
-.header_text h1 {
-  color: var(--clr-fontDark);
-  font-weight: 800;
+.index_cards{
+  display: inline-flex;
 }
 
-.header_text h2 {
-  color: var(--clr-fontDarkBlue);
-  font-family: "Lato";
-}
-
-.header_text h3 {
-  color: var(--clr-fontClr1);
+.index_card_styles{
+  background-color: var(--clr-cardBg);
+  color: var(--clr-fontc);
+  border-radius: 5px;
+  border-bottom: solid 5px var(--clr-Borders);
+  border-top : solid 5px var(--clr-Borders);
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 350px;
+  width: 230px;
 }
 
 /* Columbus Culture Page */
@@ -195,6 +244,12 @@ body {
   transition: all 0.4s ease;
 }
 
+.nav_icon_exit{
+  text-align: left;
+  color: var(--clr-Borders);
+  padding: 10px;
+}
+
 .nav_text {
   text-decoration: none;
   color: var(--clr-fontClr1);
@@ -264,4 +319,52 @@ body {
   margin-right: 4px;
   padding-top: 10px;
 }
+
+/*ENTERTAINMENT STYLES*/
+
+.entertainmentCards{
+  display: grid;
+  grid-template-columns: 5;
+  grid-template-rows: 4;
+}
+
+.eCard{
+  margin: 10px;
+  height: auto;
+  width: auto;
+}
+
+#ecard1{
+  grid-row: 1/4;
+  grid-column: 1/2;
+}
+
+#ecard2{
+  grid-row: 1;
+  grid-column: 3;
+}
+
+#ecard3{
+  grid-row: 1;
+  grid-column: 4/5;
+}
+
+#ecard4{
+  grid-row: 2;
+  grid-column: 3;
+}
+
+
+#ecard5{
+  grid-row: 3;
+  grid-column: 3;
+}
+
+
+#ecard6{
+  grid-row: 3;
+  grid-column: 4;
+}
+
+
 /* I gave up on the media query :( */
