@@ -399,6 +399,9 @@ body {
 
 
 /* food page css */
+#f_h2{
+  margin-left: 5px;
+}
 .f_card_container{
   display: grid;
   grid-template-columns: 3;
@@ -418,6 +421,7 @@ body {
 #second_card{
   grid-column: 2;
   grid-row: 1;
+  box-shadow: #0066cc 2px 1px;
 }
 #third_card{ 
   grid-column: 3;
@@ -430,5 +434,14 @@ body {
 
 }
 #sixth_card{
+
+}
+#seventh_card{
+
+}
+#eighth_card{
+
+}
+#nineth_card{
 
 } */
