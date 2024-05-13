@@ -460,6 +460,9 @@ body {
   box-shadow: 3px 3px 3px black;
   height: 36svh;
 }
+.review{
+  border: 3px solid;
+}
 #fifth_card{
   height: 36svh;
 }
