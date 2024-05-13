@@ -286,6 +286,7 @@ body {
 
 /* .footer {
 } */
+
 /* Hotels and transport page */
 .main {
   display: grid;
@@ -362,7 +363,6 @@ body {
   display: block;
   position: static;
   text-align: center;
-  vertical-align: middle;
   font-size: 3rem;
   margin: 10px;
   background-color: #0066cc;
@@ -438,6 +438,9 @@ body {
 #first_card{
   grid-column: 1;
   grid-row: 1;
+}
+.f_img2{
+  border-radius: 50%;
 }
 #f_img{
   max-height: 21svh;
