@@ -45,7 +45,7 @@ body {
   height: 511px;
 }
 
-.imgCard h3{
+.imgCard h3 {
   font-size: 1.5rem;
   margin-left: 20px;
   padding-bottom: 100px;
@@ -53,7 +53,7 @@ body {
   color: var(--clr-fontClrWhite);
 }
 
-.imgCard h2{
+.imgCard h2 {
   font-size: 3rem;
   margin-left: 80px;
   padding-bottom: 0px;
@@ -61,7 +61,7 @@ body {
   font-family: "Lato";
 }
 
-.imgCard h1{
+.imgCard h1 {
   font-size: 5rem;
   text-align: center;
   margin-left: 150px;
@@ -95,7 +95,7 @@ body {
   padding-left: 25px;
 }
 
-.fun_facts_card{
+.fun_facts_card {
   background-color: var(--clr-Nav-Background);
   opacity: 90%;
   height: 200px;
@@ -118,16 +118,16 @@ body {
   padding: 10px;
 }
 
-.index_cards{
+.index_cards {
   display: inline-flex;
 }
 
-.index_card_styles{
+.index_card_styles {
   background-color: var(--clr-cardBg);
   color: var(--clr-fontc);
   border-radius: 5px;
   border-bottom: solid 5px var(--clr-Borders);
-  border-top : solid 5px var(--clr-Borders);
+  border-top: solid 5px var(--clr-Borders);
   margin-left: 30px;
   margin-bottom: 20px;
   padding: 10px;
@@ -246,10 +246,11 @@ body {
   transition: all 0.4s ease;
 }
 
-.nav_icon_exit{
+.nav_icon_exit {
   text-align: left;
   color: var(--clr-Borders);
   padding: 10px;
+  cursor: pointer;
 }
 
 .nav_text {
@@ -292,7 +293,6 @@ body {
   display: grid;
   grid-template-columns: 2;
   grid-template-rows: 1;
-  
 }
 .ht_card {
   border: 2px solid var(--clr-Borders);
@@ -307,15 +307,16 @@ body {
   scroll-snap-type: x mandatory;
   gap: 8px;
 }
-.ht_card2{
+.ht_card2 {
   padding-left: 5px;
   padding-bottom: 8px;
   text-align: center;
   margin: 2%;
   scroll-snap-align: start;
 }
-#ht_sect2, #ht_sect{
-  display:flex;
+#ht_sect2,
+#ht_sect {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -325,7 +326,7 @@ body {
   width: 45svw;
   margin-top: 12px;
 }
-#ht_card1 > hr{
+#ht_card1 > hr {
   margin-top: -22px;
   margin-bottom: 26px;
 }
@@ -334,7 +335,7 @@ body {
   grid-row: 1;
   width: 45svw;
 }
-#ht_card2 > hr{
+#ht_card2 > hr {
   margin-top: 26px;
   margin-bottom: 26px;
 }
@@ -353,13 +354,13 @@ body {
 
 /*ENTERTAINMENT STYLES*/
 
-.entertainmentCards{
+.entertainmentCards {
   display: grid;
   grid-template-columns: 4;
   grid-template-rows: 4;
 }
 
-.eCard{
+.eCard {
   display: block;
   position: static;
   text-align: center;
@@ -368,45 +369,43 @@ body {
   background-color: #0066cc;
 }
 
-#ecard1{
+#ecard1 {
   grid-row: 1/4;
   grid-column: 1/2;
   height: 600px;
 }
 
-#ecard2{
+#ecard2 {
   grid-row: 1;
   grid-column: 2;
   height: 200px;
 }
 
-#ecard3{
+#ecard3 {
   grid-row: 1;
   grid-column: 3/5;
   height: 200px;
 }
 
-#ecard4{
+#ecard4 {
   grid-row: 2/3;
   grid-column: 2;
   height: 380px;
 }
 
-
-#ecard5{
+#ecard5 {
   grid-row: 2;
   grid-column: 3;
   height: 200px;
 }
 
-
-#ecard6{
+#ecard6 {
   grid-row: 2;
   grid-column: 4;
   height: 200px;
 }
 
-#ecard7{
+#ecard7 {
   height: 150px;
   column-span: 3/5;
   margin-top: -160px;
@@ -416,17 +415,16 @@ body {
 
 /* I gave up on the media query :( */
 
-
 /* food page css */
-#f_h2{
+#f_h2 {
   margin-left: 5px;
 }
-.f_card_container{
+.f_card_container {
   display: grid;
   grid-template-columns: 3;
   grid-template-rows: 2;
 }
-.f_card{
+.f_card {
   border: 2px solid var(--clr-Borders);
   border-radius: 5px;
   margin: 5px;
@@ -435,59 +433,61 @@ body {
   max-width: 30svw;
   width: 33svw;
 }
-#first_card{
+#first_card {
   grid-column: 1;
   grid-row: 1;
 }
-.f_img2{
+.f_img2 {
   border-radius: 50%;
 }
-#f_img{
+#f_img {
   max-height: 21svh;
   border: 2px solid var(--clr-Borders);
   border-radius: 5px;
 }
-#second_card{
+#second_card {
   grid-column: 2;
   grid-row: 1;
-  box-shadow: 3px 3px 3px  black;
+  box-shadow: 4px 3px 10px black;
 }
-#third_card{ 
+#third_card {
   grid-column: 3;
   grid-row: 1;
 }
- #fourth_card{
-  box-shadow: 3px 3px 3px black;
+#fourth_card {
+  box-shadow: 4px 3px 10px black;
   height: 36svh;
+  margin-top: 80px;
 }
-.review{
-  border: 3px solid;
-}
-#fifth_card{
+#fifth_card {
   height: 36svh;
+  margin-top: 80px;
 }
-#sixth_card{
-  box-shadow: 3px 3px 3px black;
-  height: 36svh;
+#sixth_card {
+  box-shadow: 4px 3px 10px black;
+  height: fit-content;
+  margin-top: 45px;
 }
-/* #seventh_card{
-  
-} */
-#eighth_card{
-  box-shadow: 3px 3px 3px black;
+#seventh_card{
+  margin-top: 50px;
 }
-/* #nineth_card{
-  
-} */
+#eighth_card {
+  box-shadow: 4px 3px 10px black;
+  margin-top: 50px;
+}
+#nineth_card {
+  height: fit-content;
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
 
-/*SIGHTS PAGE STYLES*/ 
-.sightsHead{
+/*SIGHTS PAGE STYLES*/
+.sightsHead {
   justify-items: center;
   align-items: center;
-  
 }
 
-.sightsImg{
+.sightsImg {
   background-color: #0066cc;
   margin-left: 60px;
   margin-top: 20px;
@@ -495,7 +495,7 @@ body {
   height: 350px;
 }
 
-.sightsImgCard{
+.sightsImgCard {
   background-color: orange;
   height: 200px;
   width: 300px;
@@ -504,14 +504,14 @@ body {
   margin-right: 20px;
 }
 
-.ThreeSightsCards{
+.ThreeSightsCards {
   transform: translateX(-4px);
   display: grid;
   grid-template-columns: 3;
   grid-template-rows: 3;
 }
 
-.sightsCards{
+.sightsCards {
   background-color: var(--clr-cardBg);
   border-bottom: var(--clr-Borders) solid 5px;
   border-radius: 5px;
@@ -525,50 +525,48 @@ body {
   text-align: center;
 }
 
-.sightsCards img{
+.sightsCards img {
   border-radius: 5px;
   filter: brightness(60%);
 }
 
-.text{
+.text {
   position: absolute;
   top: 10%;
   color: rgb(255, 255, 255);
   font-weight: 700;
 }
 
-
-#card1{
+#card1 {
   grid-column: 1;
   grid-row: 1;
   margin-left: 20px;
   padding: 5px;
 }
 
-#card1 .text{
+#card1 .text {
   margin-left: 25px;
 }
 
-#card2{
+#card2 {
   grid-column: 2;
   grid-row: 1;
   padding: 5px;
 }
 
-#card2 .text{
+#card2 .text {
   padding: 10px;
   top: 25px;
 }
 
-
-#card3{
+#card3 {
   grid-column: 3;
   grid-row: 1;
   padding: 5px;
 }
 
-#card4{
-    margin-left: 20px;
+#card4 {
+  margin-left: 20px;
   grid-column: 1;
   grid-row: 2;
   width: 440px;
@@ -576,13 +574,13 @@ body {
   padding: 5px;
 }
 
-#card5{
+#card5 {
   grid-column: 2;
   grid-row: 2;
   padding: 5px;
 }
 
-#card6{
+#card6 {
   grid-column: 3;
   grid-row: 2;
   padding: 5px;

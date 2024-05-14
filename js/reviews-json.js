@@ -11,19 +11,11 @@ xhr3.onload = function () {
     let responseObject = JSON.parse(xhr3.responseText);
 
     console.log(responseObject);
-    let newCard = "";
-
+    
     //create loop and stuff
     for (let i = 0; i < responseObject.reviews.length; i++) {
+      let newCard = "";
       newCard += "<div class='review'>";
-/*       newCard +=
-        "<a href='" +
-        responseObject.review[i].link +
-        "'> <img src='" +
-        responseObject.hotels[i].img +
-        "' alt='" +
-        responseObject.hotels[i].alt +
-        "' style='width:100px;height:100px'></a>"; */
       newCard += "<p><b>" + responseObject.reviews[i].name + "<br>";
       newCard += responseObject.reviews[i].stars + "<br>";
       newCard += responseObject.reviews[i].head + "<br>";
@@ -31,9 +23,34 @@ xhr3.onload = function () {
       newCard += responseObject.reviews[i].attribution + "<br>";
       newCard += "</p></b>";
       newCard += "</div>";
-    }
+      document.getElementById("f_re").innerHTML += newCard;
+    };
 
-    document.getElementById("f_re").innerHTML += newCard;
+    for (let i = 0; i < responseObject.review2.length; i++) {
+      let newCard = "";
+      newCard += "<div class='review'>";
+      newCard += "<p><b>" + responseObject.review2[i].name + "<br>";
+      newCard += responseObject.review2[i].stars + "<br>";
+      newCard += responseObject.review2[i].head + "<br>";
+      newCard += responseObject.review2[i].review + "<br>";
+      newCard += responseObject.review2[i].attribution + "<br>";
+      newCard += "</p></b>";
+      newCard += "</div>";
+      document.getElementById("f_re2").innerHTML += newCard;
+    };
+
+    for (let i = 0; i < responseObject.review3.length; i++) {
+      let newCard = "";
+      newCard += "<div class='review'>";
+      newCard += "<p><b>" + responseObject.review3[i].name + "<br>";
+      newCard += responseObject.review3[i].stars + "<br>";
+      newCard += responseObject.review3[i].head + "<br>";
+      newCard += responseObject.review3[i].review + "<br>";
+      newCard += responseObject.review3[i].attribution + "<br>";
+      newCard += "</p></b>";
+      newCard += "</div>";
+      document.getElementById("f_re3").innerHTML += newCard;
+    };    
   }
 };
 
