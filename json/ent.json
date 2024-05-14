@@ -1,25 +1,26 @@
-
 {
-    "trans": [
+    "CCT": [
         {
-            "name": "Ohio Childrens Theater",
+            "name": "Columbus Childrens Theater",
             "desc": "sfdf",
             "img": "asdfsd"
-        },
+        }
+    ],
+
+    "LegoLand": [
         {
             "name": "Lego Land Discovery Center",
             "desc": "sfdf",
             "img": "asdfsd"
-        },
-        {
-            "name": "Cosi",
-            "desc": "sfdf",
-            "img": "asdfsd"
-        },
-        {
-            "name": "Scioto Audubon Metro Park?",
-            "desc": "sfdf",
-            "img": "asdfsd"
         }
-]
+    ],
+
+    "Otherworld": [
+        {
+            "name": "OtherWorld",
+            "desc": "dasffd",
+            "img": "sfdfsfds"
+        }
+     
+    ]
 }

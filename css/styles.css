@@ -363,8 +363,8 @@ body {
   display: block;
   position: static;
   text-align: center;
-  font-size: 3rem;
   margin: 10px;
+  padding: 0px;
   background-color: #0066cc;
 }
 

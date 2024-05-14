@@ -8,10 +8,36 @@ xhr4.onload = function () {
 
   if (xhr4.status === 200) {
     //create an object to get data from json
-    let responseObject = JSON.parse(xhr.responseText);
+    let responseObject = JSON.parse(xhr4.responseText);
 
     console.log(responseObject);
-    
+
+    // loop for the thing
+    for (let i=0; i<responseObject.CCT.length; i++){
+      let newCard ="";
+      newCard += "<p>" + responseObject.CCT[i].name;
+      newCard += "</p>";
+      document.getElementById("ecard_sect1").innerHTML += newCard;
+    }
+
+    for (let i=0; i<responseObject.LegoLand.length; i++){
+      let newCard ="";
+      newCard += "<p>" + responseObject.LegoLand[i].name;
+      newCard += "</p>";
+      document.getElementById("ecard_sect2").innerHTML += newCard;
+    }
+
+    for (let i=0; i<responseObject.Otherworld.length; i++){
+      let newCard ="";
+      newCard += "<p>" + responseObject.Otherworld[i].name;
+      newCard += "</p>";
+      document.getElementById("ecard_sect3").innerHTML += newCard;
+    }
 
   }
+
+  
 };
+
+xhr4.open("GET", "./../json/ent.json", true);
+xhr4.send(null);
