@@ -18,7 +18,7 @@ let nav_exit_index = document.getElementsByClassName('nav_icon_exit')
         }
     })
 
-/*     nav_exit_index[0].addEventListener("click", function() {
+     nav_exit_index[0].addEventListener("click", function() {
         this.classList.toggle("active");
 
         if (nav.style.display.match("block")) {
@@ -26,4 +26,3 @@ let nav_exit_index = document.getElementsByClassName('nav_icon_exit')
             nav.style.display = "none";
         }
     })
- */

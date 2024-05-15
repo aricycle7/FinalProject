@@ -285,8 +285,54 @@ body {
   margin-top: 35px;
 }
 
-/* .footer {
-} */
+.footer{
+  display: block;
+  position: static;
+  bottom: 0px;
+  height: 150px;
+  width: 100%;
+  background-color: var(--clr-Nav-Background);
+  border-top: solid 6px var(--clr-Borders);
+}
+
+.foot-links{
+  margin-left: 10px;
+  transform: translateY(20px);
+}
+
+.foot-links a{
+  font-size: 1.5rem;
+  color: var(--clr-fontClr2);
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: ease-in-out .2s;
+}
+
+.foot-links a:hover{
+  color: var(--clr-fontHover);
+}
+
+#srces{
+  margin-left: 30px;
+}
+
+.socials i{
+  margin-left: 10px;
+  transform: translateY(80px);
+  transition: ease-in-out .2s;
+  color: var(--clr-fontClr2);
+}
+
+.socials i:hover{
+  color: var(--clr-fontHover);
+  scale: 0.95;
+}
+
+.copy{
+  float: right;
+  margin-right: 40px;
+  transform: translateY(60px);
+}
 
 /* Hotels and transport page */
 .main {
@@ -488,20 +534,18 @@ body {
 }
 
 .sightsImg {
-  background-color: #0066cc;
+  background-color: var(--clr-indexBg);
   margin-left: 60px;
   margin-top: 20px;
   width: 90%;
   height: 350px;
 }
 
-.sightsImgCard {
-  background-color: orange;
-  height: 200px;
-  width: 300px;
-  float: right;
-  margin-top: 170px;
-  margin-right: 20px;
+#CO-Wonders{
+  font-size: 4rem;
+  transform: translateY(135px);
+  text-align: center;
+  color: var(--clr-background-white);
 }
 
 .ThreeSightsCards {
@@ -523,6 +567,11 @@ body {
   height: 400px;
   position: relative;
   text-align: center;
+  transition: ease-in-out .2s;
+}
+
+.sightsCards:hover{
+  scale: 1.05;
 }
 
 .sightsCards img {
