@@ -413,7 +413,7 @@ body {
   text-align: center;
   margin: 10px;
   padding: 0px;
-  background-color: var(--clr-cardBg);
+  background-color: #0066cc;
 }
 
 #ecard1 {
@@ -623,7 +623,7 @@ display: block;
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  width: 400px;
+  width: 90%;
   height: 400px;
   position: relative;
   text-align: center;
@@ -637,6 +637,7 @@ display: block;
 .sightsCards img {
   border-radius: 5px;
   filter: brightness(60%);
+  width: 100%;
 }
 
 .text {
@@ -678,6 +679,8 @@ display: block;
   margin-left: 20px;
   grid-column: 1;
   grid-row: 2;
+/*   width: 440px;
+  height: 400px; */
   padding: 5px;
 }
 
