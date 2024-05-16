@@ -34,6 +34,27 @@ xhr4.onload = function () {
       document.getElementById("ecard_sect3").innerHTML += newCard;
     }
 
+    for (let i=0; i<responseObject.COSI.length; i++){
+      let newCard ="";
+      newCard += "<p>" + responseObject.COSI[i].name;
+      newCard += "</p>";
+      document.getElementById("ecard_sect4").innerHTML += newCard;
+    }
+
+    for (let i=0; i<responseObject.PolarisMall.length; i++){
+      let newCard ="";
+      newCard += "<p>" + responseObject.PolarisMall[i].name;
+      newCard += "</p>";
+      document.getElementById("ecard_sect5").innerHTML += newCard;
+    }
+
+    for (let i=0; i<responseObject.ZoombeziBay.length; i++){
+      let newCard ="";
+      newCard += "<p>" + responseObject.ZoombeziBay[i].name;
+      newCard += "</p>";
+      document.getElementById("ecard_sect6").innerHTML += newCard;
+    }
+
   }
 
   

@@ -24,11 +24,36 @@
      
     ],
 
-    "adfsafsf": [
+    "COSI": [
         {
-            "name": "smth",
+            "name": "COSI",
             "desc": "sdffs",
             "img": "sdsfdsdfs"
         }
+    ],
+
+    "PolarisMall": [
+        {
+            "name": "Polaris",
+            "desc": "fdhsbfh",
+            "img": "mjasfkdfd"
+        }
+    ],
+
+    "ZoombeziBay": [
+        {
+            "name": "Zoombezi Bay",
+            "desc": "dasfsdff",
+            "img": "sdfsdf"
+        }
+    ],
+
+    "NorthMarket": [
+        {
+            "name": "North Market",
+            "desc": "srgfdfs",
+            "img": "sfsff"
+        }
     ]
+
 }
