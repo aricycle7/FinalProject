@@ -15,9 +15,10 @@ xhr4.onload = function () {
     // loop for the thing
     for (let i=0; i<responseObject.CCT.length; i++){
       let newCard ="";
-      newCard += "<p>" + responseObject.CCT[i].name;
+      newCard += "<p>" + responseObject.CCT[i].name; 
       newCard += "</p>";
-      document.getElementById("ecard_sect1").innerHTML += newCard;
+/*      newCard += "<a href='" + responseObject.CCT[i].imgLink + "'>" + "<img src='" + responseObject.CCT[i].img + "'alt='nananakcsnklna' height='40%' width='40%'></a>";  */
+      document.getElementById("ecard_sect4").innerHTML += newCard;
     }
 
     for (let i=0; i<responseObject.LegoLand.length; i++){
@@ -38,14 +39,14 @@ xhr4.onload = function () {
       let newCard ="";
       newCard += "<p>" + responseObject.COSI[i].name;
       newCard += "</p>";
-      document.getElementById("ecard_sect4").innerHTML += newCard;
+      document.getElementById("ecard_sect5").innerHTML += newCard;
     }
 
     for (let i=0; i<responseObject.PolarisMall.length; i++){
       let newCard ="";
       newCard += "<p>" + responseObject.PolarisMall[i].name;
       newCard += "</p>";
-      document.getElementById("ecard_sect5").innerHTML += newCard;
+      document.getElementById("ecard_sect1").innerHTML += newCard;
     }
 
     for (let i=0; i<responseObject.ZoombeziBay.length; i++){
@@ -53,6 +54,13 @@ xhr4.onload = function () {
       newCard += "<p>" + responseObject.ZoombeziBay[i].name;
       newCard += "</p>";
       document.getElementById("ecard_sect6").innerHTML += newCard;
+    }
+
+    for (let i=0; i<responseObject.NorthMarket.length; i++){
+      let newCard ="";
+      newCard += "<p>" + responseObject.NorthMarket[i].name;
+      newCard += "</p>";
+      document.getElementById("ecard_sect7").innerHTML += newCard;
     }
 
   }

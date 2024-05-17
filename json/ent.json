@@ -3,7 +3,8 @@
         {
             "name": "Columbus Childrens Theater",
             "desc": "sfdf",
-            "img": "asdfsd"
+            "imgLink": "https://columbuschildrenstheatre.org/",
+            "img": "../res/CCTimg.jpg"
         }
     ],
 
@@ -11,7 +12,8 @@
         {
             "name": "Lego Land Discovery Center",
             "desc": "sfdf",
-            "img": "asdfsd"
+            "imgLink": "https://www.experiencecolumbus.com/things-to-do/attractions/legoland-discovery-center/",
+            "img": "../res/legoland.jpg"
         }
     ],
 
@@ -19,7 +21,8 @@
         {
             "name": "OtherWorld",
             "desc": "dasffd",
-            "img": "sfdfsfds"
+            "imgLink": "https://www.otherworld.com/main/home-ohio",
+            "img": "../res/otherworld.jpg"
         }
      
     ],
@@ -28,6 +31,7 @@
         {
             "name": "COSI",
             "desc": "sdffs",
+            "imgLink": "https://columbuschildrenstheatre.org/",
             "img": "sdsfdsdfs"
         }
     ],
@@ -36,6 +40,7 @@
         {
             "name": "Polaris",
             "desc": "fdhsbfh",
+            "imgLink": "https://columbuschildrenstheatre.org/",
             "img": "mjasfkdfd"
         }
     ],
@@ -44,6 +49,7 @@
         {
             "name": "Zoombezi Bay",
             "desc": "dasfsdff",
+            "imgLink": "https://columbuschildrenstheatre.org/",
             "img": "sdfsdf"
         }
     ],
@@ -52,6 +58,7 @@
         {
             "name": "North Market",
             "desc": "srgfdfs",
+            "imgLink": "https://columbuschildrenstheatre.org/",
             "img": "sfsff"
         }
     ]

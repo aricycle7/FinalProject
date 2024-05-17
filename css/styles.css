@@ -413,7 +413,8 @@ body {
   text-align: center;
   margin: 10px;
   padding: 0px;
-  background-color: #0066cc;
+  background-color: var(--clr-cardBg);
+  width: 95%;
 }
 
 #ecard1 {
