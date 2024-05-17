@@ -87,10 +87,12 @@ body {
   border-top-left-radius: 50px;
   cursor: default;
 }
+
 .imgSrc > a {
   color: rgba(240, 248, 255, 85%);
   text-decoration: none;
 }
+
 .imgSrc > p {
   left: 1px;
   padding-left: 25px;
@@ -119,8 +121,10 @@ body {
   padding: 10px;
 }
 
+
 .index_cards {
   display: inline-flex;
+  width: 100%;
 }
 
 .index_card_styles {
@@ -644,6 +648,8 @@ display: block;
 .text {
   position: absolute;
   top: 10%;
+  margin-right: 10px;
+  margin-left: 5px;
   color: rgb(255, 255, 255);
   font-weight: 700;
 }
