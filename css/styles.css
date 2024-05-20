@@ -406,6 +406,7 @@ body {
 /*ENTERTAINMENT STYLES*/
 
 .entertainmentCards {
+  justify-content: center;
   display: grid;
   grid-template-columns: 4;
   grid-template-rows: 4;
@@ -416,53 +417,49 @@ body {
   position: static;
   text-align: center;
   margin: 10px;
-  padding: 0px;
+  padding: 10px;
   background-color: var(--clr-cardBg);
-  width: 95%;
+  height: fit-content;
+  width: fit-content;
 }
 
 #ecard1 {
-  grid-row: 1/4;
-  grid-column: 1/2;
-  height: 600px;
+  grid-row: 1;
+  grid-column: 1;
 }
 
 #ecard2 {
   grid-row: 1;
   grid-column: 2;
-  height: 200px;
 }
 
 #ecard3 {
-  grid-row: 1;
-  grid-column: 3/5;
-  height: 200px;
+  grid-row: 2;
+  grid-column: 1/3;
+  width: 600px;
 }
 
 #ecard4 {
-  grid-row: 2/3;
+  grid-row: 1;
   grid-column: 2;
-  height: 380px;
 }
 
 #ecard5 {
+  margin-top: -170px;
   grid-row: 2;
-  grid-column: 3;
-  height: 200px;
+  grid-column: 4/5;
 }
 
 #ecard6 {
   grid-row: 2;
   grid-column: 4;
-  height: 200px;
 }
 
 #ecard7 {
-  height: 150px;
   column-span: 3/5;
-  margin-top: -160px;
-  grid-row: 3;
+  grid-row: 1;
   grid-column: 3/5;
+
 }
 
 /* I gave up on the media query :( */
