@@ -13,7 +13,7 @@
             "name": "Lego Land Discovery Center",
             "desc": "sfdf",
             "imgLink": "https://www.experiencecolumbus.com/things-to-do/attractions/legoland-discovery-center/",
-            "img": "../res/legoland.jpg"
+            "img": "../res/legolandimg.jpg"
         }
     ],
 
@@ -31,8 +31,8 @@
         {
             "name": "COSI",
             "desc": "sdffs",
-            "imgLink": "https://columbuschildrenstheatre.org/",
-            "img": "sdsfdsdfs"
+            "imgLink": "https://cosi.org/MOBILEAPP/storytelling/index.php",
+            "img": "../res/tubejpg.jpg"
         }
     ],
 
@@ -58,8 +58,8 @@
         {
             "name": "North Market",
             "desc": "srgfdfs",
-            "imgLink": "https://columbuschildrenstheatre.org/",
-            "img": "sfsff"
+            "imgLink": "https://en.wikipedia.org/wiki/North_Market",
+            "img": "../res/North_Market2.jpg"
         }
     ]
 
