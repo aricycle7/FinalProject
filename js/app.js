@@ -1,3 +1,5 @@
+console.log(window.innerWidth);
+
 //NAVBAR STUFF
 let nav_button = document.getElementsByClassName('nav_icon');
 let nav = document.getElementsByClassName('nav')[0];

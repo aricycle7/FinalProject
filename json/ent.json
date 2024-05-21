@@ -2,7 +2,7 @@
     "CCT": [
         {
             "name": "Columbus Childrens Theater",
-            "desc": "sfdf",
+            "desc": "Come support the Columbus Childrens Theater and watch a show.",
             "imgLink": "https://columbuschildrenstheatre.org/",
             "img": "../res/CCTimg.jpg"
         }
@@ -11,7 +11,7 @@
     "LegoLand": [
         {
             "name": "Lego Land Discovery Center",
-            "desc": "sfdf",
+            "desc": "Experince the world of legos at Easton mall.",
             "imgLink": "https://www.experiencecolumbus.com/things-to-do/attractions/legoland-discovery-center/",
             "img": "../res/legolandimg.jpg"
         }
@@ -20,7 +20,7 @@
     "Otherworld": [
         {
             "name": "OtherWorld",
-            "desc": "dasffd",
+            "desc": "An out of this world experince full of color and oddities galore.",
             "imgLink": "https://www.otherworld.com/main/home-ohio",
             "img": "../res/otherworld.jpg"
         }
@@ -30,7 +30,7 @@
     "COSI": [
         {
             "name": "COSI",
-            "desc": "sdffs",
+            "desc": "COSI isn't just for kids! Go have fun at this emporium of science.",
             "imgLink": "https://cosi.org/MOBILEAPP/storytelling/index.php",
             "img": "../res/tubejpg.jpg"
         }
@@ -39,25 +39,25 @@
     "PolarisMall": [
         {
             "name": "Polaris",
-            "desc": "fdhsbfh",
-            "imgLink": "https://columbuschildrenstheatre.org/",
-            "img": "mjasfkdfd"
+            "desc": "Take a break and do some shopping at Polaris mall.",
+            "imgLink": "https://www.bizjournals.com/columbus/news/2020/05/06/heres-what-you-need-to-know-aspolaris-fashion.html",
+            "img": "../res/pole2.jpg"
         }
     ],
 
     "ZoombeziBay": [
         {
             "name": "Zoombezi Bay",
-            "desc": "dasfsdff",
-            "imgLink": "https://columbuschildrenstheatre.org/",
-            "img": "sdfsdf"
+            "desc": "Waterpark fun at the Columbus Zoo.",
+            "imgLink": "https://cincinnatifamilymagazine.com/family-fun/columbus-zoo-and-aquarium",
+            "img": "../res/zoombie.jpg"
         }
     ],
 
     "NorthMarket": [
         {
             "name": "North Market",
-            "desc": "srgfdfs",
+            "desc": "Browse the fresh fruit and produce while supporting the locals.",
             "imgLink": "https://en.wikipedia.org/wiki/North_Market",
             "img": "../res/North_Market2.jpg"
         }

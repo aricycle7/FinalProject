@@ -17,6 +17,7 @@ xhr4.onload = function () {
       let newCard ="";
       newCard += "<p>" + responseObject.CCT[i].name; 
       newCard += "</p>";
+      newCard += "<p>" + responseObject.CCT[i].desc + "</p>";
       newCard += "<a href='" + responseObject.CCT[i].imgLink + "'>" + "<img src='" + responseObject.CCT[i].img + "'alt='nananakcsnklna' height='300px' width='400px'></a>"; 
       document.getElementById("ecard_sect4").innerHTML += newCard;
     }
@@ -25,7 +26,8 @@ xhr4.onload = function () {
       let newCard ="";
       newCard += "<p>" + responseObject.LegoLand[i].name;
       newCard += "</p>";
-      newCard += "<a href='" + responseObject.LegoLand[i].imgLink + "'>" + "<img src='" + responseObject.LegoLand[i].img + "'alt='nananakcsnklna' height='300px' width='500px'></a>"; 
+      newCard += "<p>" + responseObject.LegoLand[i].desc + "</p>";
+      newCard += "<a href='" + responseObject.LegoLand[i].imgLink + "'>" + "<img src='" + responseObject.LegoLand[i].img + "'alt='nananakcsnklna' height='400px' width='700px'></a>"; 
       document.getElementById("ecard_sect3").innerHTML += newCard;
     }
 
@@ -33,6 +35,7 @@ xhr4.onload = function () {
       let newCard ="";
       newCard += "<p>" + responseObject.Otherworld[i].name;
       newCard += "</p>";
+      newCard += "<p>" + responseObject.Otherworld[i].desc + "</p>";
       newCard += "<a href='" + responseObject.Otherworld[i].imgLink + "'>" + "<img src='" + responseObject.Otherworld[i].img + "'alt='nananakcsnklna' height='500px' width='550px'></a>";
       document.getElementById("ecard_sect5").innerHTML += newCard;
     }
@@ -41,29 +44,35 @@ xhr4.onload = function () {
       let newCard ="";
       newCard += "<p>" + responseObject.COSI[i].name;
       newCard += "</p>";
+      newCard += "<p>" + responseObject.COSI[i].desc + "</p>";
       newCard += "<a href='" + responseObject.COSI[i].imgLink + "'>" + "<img src='" + responseObject.COSI[i].img + "'alt='nananakcsnklna' height='500px' width='250px'></a>"; 
       document.getElementById("ecard_sect1").innerHTML += newCard;
     }
-/* 
+
     for (let i=0; i<responseObject.PolarisMall.length; i++){
       let newCard ="";
       newCard += "<p>" + responseObject.PolarisMall[i].name;
       newCard += "</p>";
-      document.getElementById("ecard_sect2").innerHTML += newCard;
+      newCard += "<p>" + responseObject.PolarisMall[i].desc + "</p>";
+      newCard += "<a href='" + responseObject.PolarisMall[i].imgLink + "'>" + "<img src='" + responseObject.PolarisMall[i].img + "'alt='nananakcsnklna' height='190px' width='500px'></a>"; 
+      document.getElementById("ecard_sect6").innerHTML += newCard;
     }
 
     for (let i=0; i<responseObject.ZoombeziBay.length; i++){
       let newCard ="";
       newCard += "<p>" + responseObject.ZoombeziBay[i].name;
       newCard += "</p>";
-      document.getElementById("ecard_sect6").innerHTML += newCard;
+      newCard += "<p>" + responseObject.ZoombeziBay[i].desc + "</p>";
+      newCard += "<a href='" + responseObject.ZoombeziBay[i].imgLink + "'>" + "<img src='" + responseObject.ZoombeziBay[i].img + "'alt='nananakcsnklna' height='100px' width='200px'></a>"; 
+      document.getElementById("ecard_sect2").innerHTML += newCard;
     }
- */
+
     for (let i=0; i<responseObject.NorthMarket.length; i++){
       let newCard ="";
       newCard += "<p>" + responseObject.NorthMarket[i].name;
       newCard += "</p>";
-      newCard += "<a href='" + responseObject.NorthMarket[i].imgLink + "'>" + "<img src='" + responseObject.NorthMarket[i].img + "'alt='nananakcsnklna' height='250px' width='700px'></a>"; 
+      newCard += "<p>" + responseObject.NorthMarket[i].desc + "</p>";
+      newCard += "<a href='" + responseObject.NorthMarket[i].imgLink + "'>" + "<img src='" + responseObject.NorthMarket[i].img + "'alt='nananakcsnklna' height='300px' width='1000px'></a>"; 
       document.getElementById("ecard_sect7").innerHTML += newCard;
     }
 

@@ -18,6 +18,7 @@
 body {
   font-family: "Montserrat";
   background-color: var(--clr-background-white);
+  color: var(--clr-fontClr2);
   margin: 0px;
   padding: 0px;
   max-width: 1423px;
@@ -127,6 +128,10 @@ body {
   width: 100%;
 }
 
+.index_card_styles p{
+  font-size: 1.5rem;
+}
+
 .index_card_styles {
   background-color: var(--clr-cardBg);
   color: var(--clr-fontc);
@@ -138,6 +143,11 @@ body {
   padding: 10px;
   height: 350px;
   width: 230px;
+  transition: all ease-in-out .2s;
+}
+
+.index_card_styles:hover{
+  scale: 1.1;
 }
 
 /* Columbus Culture Page */
@@ -148,27 +158,39 @@ body {
   height: 100%;
 }
 .card {
-  border: 1px solid black;
+  border: 5px solid var(--clr-Borders);
   border-radius: 5px;
-  background-color: darkgray;
+  background-color: var(--clr-cardBg);
   margin: 10px;
   max-width: 350px;
+  transition: all ease-in-out .2s;
 }
+
+.card:hover{
+  scale: 1.02;
+}
+
 .img_card2 {
   grid-column: 2;
   grid-row: 1;
-  border: 1px solid black;
+  border: 5px solid var(--clr-Borders);
   border-radius: 5px;
-  background-color: darkgray;
+  background-color: var(--clr-cardBg);
   width: fit-content;
   height: fit-content;
   padding: 10px 10px 25px 10px;
   margin-top: 10px;
+    transition: all ease-in-out .2s;
 }
+
+.img_card2:hover{
+  scale: 1.02;
+}
+
 .card_img {
   max-width: 500px;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 5px dotted var(--clr-Borders);
 }
 .imgSrc2 > a {
   color: #0066cc;
@@ -346,7 +368,7 @@ body {
   grid-template-rows: 1;
 }
 .ht_card {
-  border: 2px solid var(--clr-Borders);
+  border: 5px solid var(--clr-Borders);
   border-radius: 5px;
   padding-left: 5px;
   padding-bottom: 8px;
@@ -357,6 +379,7 @@ body {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 8px;
+  width: 45svw;
 }
 .ht_card2 {
   padding-left: 5px;
@@ -374,7 +397,6 @@ body {
 #ht_card1 {
   grid-column: 1;
   grid-row: 1;
-  width: 45svw;
   margin-top: 12px;
 }
 #ht_card1 > hr {
@@ -384,7 +406,6 @@ body {
 #ht_card2 {
   grid-column: 2;
   grid-row: 1;
-  width: 45svw;
 }
 #ht_card2 > hr {
   margin-top: 26px;
@@ -394,7 +415,7 @@ body {
   width: 35%;
 }
 .event {
-  border: 2px dotted var(--clr-Borders);
+  border: 5px dotted var(--clr-Borders);
   background-color: rgb(216, 201, 178);
   margin-bottom: 10px;
   margin-right: 4px;
@@ -408,58 +429,81 @@ body {
 .entertainmentCards {
   justify-content: center;
   display: grid;
-  grid-template-columns: 4;
+  grid-template-columns: 5;
   grid-template-rows: 4;
 }
 
 .eCard {
   display: block;
-  position: static;
+  position: relative;
   text-align: center;
-  margin: 10px;
   padding: 10px;
+  margin: 20px;
   background-color: var(--clr-cardBg);
   height: fit-content;
   width: fit-content;
+  transition: all ease-in-out .2s;
+  border-radius: 5px;
+  border-bottom: solid 5px var(--clr-Borders);
+}
+
+.eCard img{
+  border-radius: 5px;
+} 
+
+.eCard:hover{
+  scale: 1.02;
 }
 
 #ecard1 {
   grid-row: 1;
   grid-column: 1;
+  margin-left: 20px;
 }
 
 #ecard2 {
-  grid-row: 1;
-  grid-column: 2;
+  grid-row: 2;
+  grid-column: 1;
+  width: 245px;
+  height: fit-content;
+  margin-top: -5px;
 }
 
 #ecard3 {
   grid-row: 2;
   grid-column: 1/3;
-  width: 600px;
+  margin-top: 250px;
 }
 
 #ecard4 {
-  grid-row: 1;
+  grid-row: 2;
   grid-column: 2;
+  margin-top: -200px;
 }
 
 #ecard5 {
-  margin-top: -170px;
+  margin-top: -200px;
   grid-row: 2;
   grid-column: 4/5;
 }
 
 #ecard6 {
-  grid-row: 2;
-  grid-column: 4;
+  grid-row: 3;
+  grid-column: 4/5;
+  margin-top: -320px;
+  height: fit-content;
+  width: 550px;
 }
 
 #ecard7 {
-  column-span: 3/5;
+  column-span: 2/5;
   grid-row: 1;
-  grid-column: 3/5;
+  grid-column: 2/5;
+}
 
+.ecardText{
+  position: absolute;
+  color: var(--clr-fontClr2);
 }
 
 /* I gave up on the media query :( */
@@ -497,7 +541,7 @@ body {
   border-radius: 5px;
   margin: 5px;
   padding: 10px;
-  height: 33svh;
+  height: fit-content;
   max-width: 30svw;
   width: 33svw;
 }
@@ -558,12 +602,10 @@ display: block;
 #fourth_card {
   grid-row: 4;
   box-shadow: 4px 3px 10px black;
-  height: 36svh;
   margin-top: 90px;
 }
 #fifth_card {
   grid-row: 4;
-  height: 36svh;
   margin-top: 90px;
 }
 #sixth_card {
@@ -698,4 +740,52 @@ display: block;
   grid-column: 3;
   grid-row: 2;
   padding: 5px;
+}
+
+.credit-stuff{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1024px){
+  /*HOTELS AND TRANS*/
+  .main{
+    justify-content: center;
+  }
+
+  #ht_card2{
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+  /*ENT*/
+  .entertainmentCards{
+    width: 70%;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 960px){
+  /*HOTELS AND TRANS*/
+  .ht_card{
+    width: 60svw;
+  }
+}
+
+@media screen and (max-width: 700px){
+  /*HOTELS AND TRANS*/
+  .ht_card{
+    width: 70svw;
+  }
+
+  .navbar h2{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 630px){
+  /*HOTELS AND TRANS*/
+  .ht_card{
+    width: 80svw;
+  }
 }
