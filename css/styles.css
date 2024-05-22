@@ -110,6 +110,11 @@ body {
   padding: 5px;
 }
 
+.fun_facts_card:hover {
+  scale: 1.05;
+  transition: all .3s ease-in-out;
+}
+
 .header_text {
   float: right;
   text-align: right;
